@@ -33,7 +33,6 @@ function show_pres_and_resize(){
 
   pres.show();
   moveBoxTopOneStep(pres);
-  alert(2);
 };
 
 if("pruffme.com" === window.location.host && 
@@ -43,12 +42,3 @@ if("pruffme.com" === window.location.host &&
 else{
   alert("You are not on a Pruffme Webinar page!");
 }
-//var scr = document.getElementById("pruffme_tweak");
-//if(scr)
-//  document.body.removeChild(scr);
-
-//scr = document.createElement("script");
-//scr.id = "pruffme_tweak";
-//scr.innerText = "(function(){(" + show_pres_and_resize.toString() + ")();})();";
-//document.body.appendChild(scr);
-
