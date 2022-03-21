@@ -33,6 +33,8 @@ function show_pres_and_resize(){
 
   pres.show();
   moveBoxTopOneStep(pres);
+
+  refreshDashboardContainerSize();
 };
 
 if("pruffme.com" === window.location.host && 
